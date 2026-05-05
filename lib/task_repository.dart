@@ -1,10 +1,10 @@
 class Task {
-  final String title;
-  final String deadline;
-  final bool done;
-  final String priority;
+  String title;
+  String deadline;
+  bool done;
+  String priority;
 
-  const Task({
+  Task({
     required this.title,
     required this.deadline,
     required this.done,
